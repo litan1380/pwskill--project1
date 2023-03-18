@@ -1,0 +1,84 @@
+/* css reset */
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image:url(/assets/pexels-maxyne-barcel-10402282\ 1.png);
+    background-size: cover;
+    font-family: 'Poppins', sans-serif; 
+}
+.left{
+
+display: inline-block;
+position: absolute;
+    left:34px;
+    top:20px;
+}
+.left img{
+    width: 120px;
+}
+.mid{
+    display: block;
+    width: 33%;
+    margin: 20px auto;
+
+
+}
+.right{
+    position: absolute;
+    right:34px;
+    top:20px;
+    display: inline-block;
+    
+
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 16px;
+}
+.navbar li a{
+    color: yellow;
+    text-decoration: none;
+    padding: 24px;
+}
+.navbar li a:hover,.navbar li a.active{
+    text-decoration: underline;
+    color:rgb(24, 6, 38);
+}
+.btn{
+    margin: 0px 9px;
+    background-color: red;
+    color: white;
+    padding: 4px 15px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+
+}
+.btn:hover{
+    background-color: rgb(24, 6, 38);
+}
+.container{
+margin: 150px 80px;
+text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  color: yellow;
+}
+.btn1{
+    margin: 0px 9px;
+    background-color: red;
+    color: white;
+    padding: 4px 15px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+.footer{ position: absolute;
+    display: inline-block;
+    left: 1280px;
+}
